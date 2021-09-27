@@ -2,8 +2,17 @@
     "commerceSuiteVersion": "2011",
     "enableImageProcessingService": true,
     "extensions": [
-        "cloudmediaconversion",  
-        "mediaconversionbackoffice"
+        "cloudmediaconversion",
+        "mediaconversionbackoffice",
+        "smartedit",
+        "cmssmartedit",
+        "smarteditwebservices",
+        "cmssmarteditwebservices",
+        "oauth2",
+        "cmswebservices",
+        "permissionswebservices",
+        "previewwebservices",
+        "mediaweb"
     ],
     "useConfig": {
         "properties": [
@@ -42,6 +51,9 @@
                 "cloudcommons",
                 "cloudhotfolder"
             ]
+        },
+	"solr": {
+            "location": "solr2021/server/solr/configsets/default/conf"
         }
     },
     "properties": [
@@ -58,6 +70,11 @@
         },
         {
             "addon": "smarteditaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
