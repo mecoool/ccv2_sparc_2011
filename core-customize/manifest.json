@@ -54,7 +54,7 @@
             ]
         },
 	"solr": {
-            "location": "/config/solr"
+            "location": "core-customize/Solr2021/server/solr/configsets/default/conf"
         }
     },
     "properties": [
