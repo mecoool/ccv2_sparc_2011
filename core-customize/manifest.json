@@ -54,7 +54,7 @@
             ]
         },
 	"solr": {
-            "location": "Solr2021/server/solr"
+            "location": "Solr2021/config/solr"
         }
     },
     "properties": [
